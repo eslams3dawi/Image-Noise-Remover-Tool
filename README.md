@@ -22,7 +22,8 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 - Use digital median filtering for additional noise removal.
 - Display results step-by-step using organized subplots.
 - Interactive user inputs for custom filter radius selection.
-
+- Inverse Fast Fourier Transform (IFFT): To transform the frequency domain into the original image
+- 
 ---
 
 ## 🛠️ Tools & Technologies
