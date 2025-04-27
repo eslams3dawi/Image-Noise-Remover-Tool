@@ -37,8 +37,7 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 ## 📸 Screenshots & Descriptions
 
 ![Image proccessing Input](https://github.com/user-attachments/assets/84abff71-afe4-4021-8525-cc6c4ffed90d)
-
-
+![Image processing Output](https://github.com/user-attachments/assets/af1b71e4-4071-4c1a-891b-802ff777add1)
 
 **Colorful Image**: The original color image used as the starting input for processing. |
 **Grayscale Image**: Converted version of the original image into grayscale to simplify frequency processing. |
@@ -51,9 +50,6 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 
 ![Image noise Input](https://github.com/user-attachments/assets/340ad68f-7df1-4fbd-a1c3-a19d46c522f3)
 ![Image noise remover output](https://github.com/user-attachments/assets/eca207bc-f065-4f04-8f33-689432e07e6a)
-
-
-
 
 ---
 
