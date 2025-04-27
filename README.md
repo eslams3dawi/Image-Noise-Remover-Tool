@@ -36,8 +36,9 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 
 ## 📸 Screenshots & Descriptions
 
-![Image proccessing Input](https://github.com/user-attachments/assets/6a3f7913-1dde-4815-a2f9-0670c4865d20)
-![Image processing Output](Outputs/Image-processing-Output)
+![Image proccessing Input](https://github.com/user-attachments/assets/84abff71-afe4-4021-8525-cc6c4ffed90d)
+
+
 
 **Colorful Image**: The original color image used as the starting input for processing. |
 **Grayscale Image**: Converted version of the original image into grayscale to simplify frequency processing. |
@@ -48,7 +49,10 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 **High-pass Filter**: A filter that allows high-frequency components (fine details and edges) to pass while blocking the lower frequencies. |
 **High-pass Filtered Image**: Image after applying the high-pass filter, highlighting edges and fine features. |
 
-![Image noise Input](https://github.com/user-attachments/assets/6334b1af-1d8f-40bd-bea8-fc5ae6e613e1)
+![Image noise Input](https://github.com/user-attachments/assets/340ad68f-7df1-4fbd-a1c3-a19d46c522f3)
+![Image noise remover output](https://github.com/user-attachments/assets/eca207bc-f065-4f04-8f33-689432e07e6a)
+
+
 
 
 ---
