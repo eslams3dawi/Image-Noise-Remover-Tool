@@ -1,11 +1,11 @@
 %% Section 1 ==============================================================
 clc;                   close all;                 clear;
-%========================================================Original grayscale
-originalImage = imread('coins.png');
-grayImage = rgb2gray(originalImage);
+%========================================================Original gray
+imagePath = input("Enter the path of the image: ", 's'); 
+grayImage = rgb2gray(imread(imagePath));   
 
 subplot(5,3,1), imshow(grayImage)
-title('Section One - Original image || the grayscale image'); axis on;
+title('Section One - Original image || the gray image'); axis on;
 %=========================================================Fourier magnitude
 fourierTransformed = fft2(grayImage);
 fourierMagnitude = log(1 + abs(fourierTransformed));

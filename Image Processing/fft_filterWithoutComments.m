@@ -1,13 +1,15 @@
 %1=========================================================================
 clc;                close all;            clear;             
 %2=======================================================The Colorful Image
-originalImage = imread('MathImg.png'); 
+imagePath = input("Enter the path of the image: ", 's'); 
+originalImage = imread(imagePath);   
+
 subplot(4,2,1); imshow(originalImage) 
 title('The Colorful Image'); axis on;
-%3======================================================The Grayscale Image
+%3======================================================The Gray Image
 grayImage = rgb2gray(originalImage); 
 subplot(4,2,3); imshow(grayImage)
-title('The Grayscale Image'); axis on;
+title('The Gray Image'); axis on;
 %3==============================================The Fourier Magnitude Image
 fourierTransformed = fft2(grayImage);  
 fourierMagnitude = log(1 + abs(fourierTransformed)); 
