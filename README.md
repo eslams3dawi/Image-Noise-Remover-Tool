@@ -22,7 +22,8 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 - Use digital median filtering for additional noise removal.
 - Display results step-by-step using organized subplots.
 - Interactive user inputs for custom filter radius selection.
-
+- Inverse Fast Fourier Transform (IFFT): To transform the frequency domain into the original image
+  
 ---
 
 ## 🛠️ Tools & Technologies
@@ -36,20 +37,20 @@ It also supports visualization of key steps: grayscale conversion, Fourier magni
 
 ## 📸 Screenshots & Descriptions
 
-![Image proccessing Input](https://github.com/user-attachments/assets/6a3f7913-1dde-4815-a2f9-0670c4865d20)
-![Image processing Output](Outputs/Image-processing-Output)
+![Image proccessing Input](https://github.com/user-attachments/assets/84abff71-afe4-4021-8525-cc6c4ffed90d)
+![Image processing Output](https://github.com/user-attachments/assets/af1b71e4-4071-4c1a-891b-802ff777add1)
 
-**Colorful Image**: The original color image used as the starting input for processing. |
-**Grayscale Image**: Converted version of the original image into grayscale to simplify frequency processing. |
-**Fourier Magnitude Image**: Visualization of the Fourier Transform magnitude of the grayscale image, representing frequency components. |
-**Shifted Fourier Magnitude Image**: Shifted version of the Fourier Transform to center the low frequencies, making filters more intuitive. |
-**Low-pass Filter**: A frequency filter that allows low-frequency components to pass while blocking high frequencies (noise). |
-**Low-pass Filtered Image**: Image after applying the low-pass filter, showing noise reduction while preserving general structures. |
-**High-pass Filter**: A filter that allows high-frequency components (fine details and edges) to pass while blocking the lower frequencies. |
-**High-pass Filtered Image**: Image after applying the high-pass filter, highlighting edges and fine features. |
+**Colorful Image**: The original color image used as the starting input for processing. <br>
+**Grayscale Image**: Converted version of the original image into grayscale to simplify frequency processing. <br>
+**Fourier Magnitude Image**: Visualization of the Fourier Transform magnitude of the grayscale image, representing frequency components. <br>
+**Shifted Fourier Magnitude Image**: Shifted version of the Fourier Transform to center the low frequencies, making filters more intuitive. <br>
+**Low-pass Filter**: A frequency filter that allows low-frequency components to pass while blocking high frequencies (noise). <br>
+**Low-pass Filtered Image**: Image after applying the low-pass filter, showing noise reduction while preserving general structures. <br>
+**High-pass Filter**: A filter that allows high-frequency components (fine details and edges) to pass while blocking the lower frequencies. <br>
+**High-pass Filtered Image**: Image after applying the high-pass filter, highlighting edges and fine features. <br>
 
-![Image noise Input](https://github.com/user-attachments/assets/6334b1af-1d8f-40bd-bea8-fc5ae6e613e1)
-
+![Image noise Input](https://github.com/user-attachments/assets/340ad68f-7df1-4fbd-a1c3-a19d46c522f3)
+![Image noise remover output](https://github.com/user-attachments/assets/eca207bc-f065-4f04-8f33-689432e07e6a)
 
 ---
 
